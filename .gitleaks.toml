@@ -1,0 +1,7 @@
+[extend]
+useDefault = true
+
+[[allowlists]]
+description = "Les slugs de stations (champ source_key) sont pris pour des clés d'API par la règle générique"
+targetRules = ["generic-api-key"]
+paths = ['''resort_slope_maps/data/imported/extraction_records\.jsonl''']
