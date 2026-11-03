@@ -12,6 +12,7 @@ d'environnement, ni autre dépôt local.
 
 - `data/imported/classification_features.csv` : données d'entrée de la classification ;
 - `data/imported/prediction_features.csv` : données d'entrée de la prédiction ;
+- `notebooks/resort_data_analysis.ipynb` : profil des colonnes, qualité des données et visualisations ;
 - `notebooks/resort_size_classification.ipynb` : classification par taille ;
 - `notebooks/resort_size_prediction.ipynb` : prédiction pour les stations incomplètes ;
 - `data/outputs/` : résultats publiables produits par les notebooks.
@@ -31,7 +32,7 @@ python -m venv .venv
 
 ## Exécution complète
 
-La commande suivante exécute les deux notebooks dans le bon ordre :
+La commande suivante exécute les trois notebooks dans le bon ordre :
 
 ```bash
 ./.venv/bin/python scripts/run_analysis.py

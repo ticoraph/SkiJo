@@ -12,6 +12,7 @@ from nbclient import NotebookClient
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 NOTEBOOKS = (
+    PROJECT_ROOT / "notebooks" / "resort_data_analysis.ipynb",
     PROJECT_ROOT / "notebooks" / "resort_size_classification.ipynb",
     PROJECT_ROOT / "notebooks" / "resort_size_prediction.ipynb",
 )
