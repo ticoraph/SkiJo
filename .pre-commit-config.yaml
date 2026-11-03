@@ -1,0 +1,34 @@
+# Garde-fous du dépôt public : rien de personnel ni de secret ne doit être committé.
+# Installation : pip install pre-commit && pre-commit install
+
+repos:
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.1
+    hooks:
+      - id: gitleaks
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: detect-private-key
+      - id: check-added-large-files
+        args: ["--maxkb=3072"]
+      - id: check-merge-conflict
+
+  - repo: local
+    hooks:
+      # Filet de sécurité si quelqu'un force l'ajout d'un fichier ignoré (git add -f).
+      - id: forbid-personal-files
+        name: interdit .env, caches, plans de pistes (images, PDF)
+        entry: "Fichier interdit dans le dépôt (voir CLAUDE.md, section Dépôt public)"
+        language: fail
+        files: '(?i)(^|/)(\.env(\..*)?|data/(cache|working|maps)/(?!\.gitkeep$).*|.*\.(jpe?g|png|gif|bmp|tiff?|webp|heic|heif|pdf))$'
+        exclude: '^(.*/)?\.env\.example$'
+
+      # Chemins absolus d'une machine personnelle.
+      - id: forbid-personal-paths
+        name: interdit les chemins personnels (/Users/nom/, /home/nom/)
+        entry: '(/Users|/home)/[A-Za-z0-9._-]+/'
+        language: pygrep
+        types: [text]
+        exclude: '^(\.pre-commit-config\.yaml|\.claude/skills/.*)$'

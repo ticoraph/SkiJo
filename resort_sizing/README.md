@@ -53,5 +53,6 @@ Les notebooks peuvent aussi être ouverts dans JupyterLab :
 
 Les petits CSV de `data/outputs/` sont versionnés volontairement : les résultats
 sont ainsi consultables sans exécuter Python et toute nouvelle exécution peut être
-comparée à la version publiée. Les sorties intégrées aux cellules des notebooks ne
-sont pas versionnées afin de garder des notebooks lisibles et des diffs Git utiles.
+comparée à la version publiée. Les notebooks sont versionnés avec leurs sorties
+(tableaux et graphiques), lisibles directement sur GitHub. `scripts/run_analysis.py`
+les exécute sans les modifier : seuls les CSV de `data/outputs/` sont réécrits.
