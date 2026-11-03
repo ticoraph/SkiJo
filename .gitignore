@@ -151,6 +151,9 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
+!**/.env.example
 .envrc
 .venv
 env/
@@ -179,6 +182,13 @@ dmypy.json
 
 # pytype static type analyzer
 .pytype/
+
+# Local slope-map binaries and raw model artefacts
+resort_slope_maps/data/maps/*
+resort_slope_maps/data/cache/*
+!resort_slope_maps/data/cache/.gitkeep
+resort_slope_maps/data/working/*
+!resort_slope_maps/data/working/.gitkeep
 
 # Cython debug symbols
 cython_debug/

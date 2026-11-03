@@ -1,0 +1,78 @@
+station,slug,denivele_station_m,pistes_km,remontees_count,pistes_count,source_remontees_count,taille_predite,confiance,a_revoir
+Morillon,morillon,1800.0,145.0,4.0,3.0,faits consolidés,Intermédiaire,0.481794,True
+Saint Véran,saint-veran,1000.0,36.0,13.0,27.0,faits consolidés,Grande,0.519417,True
+Chaillol,chaillol,550.0,13.0,8.0,12.0,faits consolidés,Moyenne,0.550919,True
+Sixt-Fer-à-Cheval,sixt-fer-a-cheval,800.0,145.0,4.0,5.0,faits consolidés,Intermédiaire,0.556882,True
+Villard-Reculas,villard-reculas,1830.0,20.0,8.0,10.0,faits consolidés,Intermédiaire,0.557664,True
+Molines - Saint-Véran,molines-en-queyras,1150.0,32.0,13.0,33.0,faits consolidés,Grande,0.564645,True
+Les Bottières,les-bottieres,1520.0,10.0,3.0,5.0,faits consolidés,Moyenne,0.580103,True
+Les Rousses,les-rousses,520.0,34.0,22.0,35.0,faits consolidés,Grande,0.580952,True
+Crest-Voland Cohennoz,crest-voland-cohennoz,839.0,34.0,62.0,29.0,faits consolidés,Intermédiaire,0.584945,True
+Doucy-Combelouvière,doucy-combelouviere,1150.0,95.0,9.0,11.0,faits consolidés,Intermédiaire,0.585407,True
+La Source du Doubs - Mouthe,la-source-du-doubs-mouthe,245.0,1.2,5.0,6.0,faits consolidés,Petite,0.586012,True
+Manigod,manigod,310.0,25.0,15.0,30.0,faits consolidés,Grande,0.600145,False
+Samoëns,samoens,520.0,145.0,9.0,7.0,faits consolidés,Intermédiaire,0.602291,False
+Les Carroz,les-carroz,1360.0,37.0,14.0,34.0,faits consolidés,Grande,0.619537,False
+Le Corbier,le-corbier,1520.0,34.0,24.0,40.0,faits consolidés,Grande,0.639914,False
+Panticosa,panticosa,1050.0,39.0,16.0,41.0,faits consolidés,Grande,0.680737,False
+Beille,beille,200.0,40.2,2.0,21.0,faits consolidés,Intermédiaire,0.728673,False
+Auris en oisans,auris-en-oisans,726.0,45.0,11.0,19.0,faits consolidés,Intermédiaire,0.752675,False
+La Chapelle d'Abondance,la-chapelle-d-abondance,780.0,35.0,13.0,24.0,faits consolidés,Intermédiaire,0.753957,False
+Hauteville-Lompnes,hauteville-lompnes,310.0,15.0,4.0,10.0,faits consolidés,Moyenne,0.791274,False
+Bellevaux - Hirmentaz,bellevaux-hirmentaz,510.0,20.0,15.0,25.0,faits consolidés,Intermédiaire,0.801561,False
+Val d'Azun,val-d-azun,250.0,0.4,2.0,9.0,faits consolidés,Petite,0.874809,False
+Le Grand Puy,le-grand-puy,430.0,22.0,5.0,14.0,faits consolidés,Intermédiaire,0.906121,False
+Saint-Jean-d'Aulps,saint-jean-d-aulps,830.0,51.0,16.0,32.0,faits consolidés,Grande,0.910946,False
+Saint-Nizier-du-Moucherotte,saint-nizier-du-moucherotte,1034.0,1.0,1.0,2.0,faits consolidés,Petite,0.918593,False
+Campan Payolle,campan-payolle,464.0,0.3,1.0,1.0,faits consolidés,Petite,0.951006,False
+Le Grand Valtin,le-grand-valtin,389.0,1.0,2.0,4.0,faits consolidés,Petite,0.969032,False
+Les Habères,les-haberes,670.0,20.0,9.0,18.0,faits consolidés,Intermédiaire,0.982139,False
+La Toussuire,la-toussuire,1520.0,55.0,22.0,44.0,faits consolidés,Grande,0.992046,False
+Vaujany,vaujany,1700.0,70.0,20.0,124.0,faits consolidés,Grande,0.994475,False
+Les Saisies,les-saisies,919.0,70.0,35.0,66.0,faits consolidés,Grande,0.994708,False
+Saint Jean de Sixt,saint-jean-de-sixt,140.0,0.5,1.0,1.0,faits consolidés,Petite,0.995011,False
+Saint-Sorlin-d'Arves,saint-sorlin-d-arves,1520.0,120.0,19.0,39.0,faits consolidés,Grande,0.995328,False
+Oz-en-Oisans,oz-en-oisans,2175.0,75.0,22.0,41.0,faits consolidés,Grande,0.995755,False
+Saint-Gervais,saint-gervais,1203.0,445.0,109.0,230.0,faits consolidés,Grande,0.996016,False
+Valmeinier,valmeinier,1250.0,160.0,36.0,87.0,faits consolidés,Grande,0.996016,False
+Beuil les Launes,beuil-les-launes,700.0,90.0,23.0,56.0,faits consolidés,Grande,0.996207,False
+Valberg,valberg,700.0,90.0,23.0,56.0,faits consolidés,Grande,0.996207,False
+Megève,megeve,1300.0,400.0,108.0,216.0,faits consolidés,Grande,0.997223,False
+Valmorel,valmorel,1300.0,95.0,35.0,103.0,faits consolidés,Grande,0.997223,False
+Corrençon-en-Vercors,correncon-en-vercors,907.0,130.0,19.0,50.0,faits consolidés,Grande,0.997502,False
+Flaine,flaine,900.0,265.0,71.0,146.0,faits consolidés,Grande,0.997502,False
+Montgenèvre,montgenevre,840.0,110.0,38.0,320.0,faits consolidés,Grande,0.997502,False
+Notre-Dame-de-Bellecombe,notre-dame-de-bellecombe,920.0,192.0,81.0,157.0,faits consolidés,Grande,0.997502,False
+Praloup,praloup,900.0,100.0,19.0,45.0,faits consolidés,Grande,0.997502,False
+Brides les Bains,brides-les-bains,2600.0,150.0,45.0,64.0,faits consolidés,Grande,0.997638,False
+Chamonix Mont-Blanc,chamonix-mont-blanc,2807.0,146.0,57.0,89.0,faits consolidés,Grande,0.997638,False
+Champagny-en-Vanoise,champagny-en-vanoise,2000.0,225.0,94.0,133.0,faits consolidés,Grande,0.997638,False
+Courchevel,courchevel,1400.0,150.0,49.0,109.0,faits consolidés,Grande,0.997638,False
+La Clusaz,la-clusaz,1460.0,125.0,49.0,84.0,faits consolidés,Grande,0.997638,False
+La Rosière,la-rosiere,1610.0,156.0,48.0,91.0,faits consolidés,Grande,0.997638,False
+La Tania,la-tania,1638.0,150.0,57.0,99.0,faits consolidés,Grande,0.997638,False
+Les Menuires,les-menuires,1400.0,160.0,44.0,86.0,faits consolidés,Grande,0.997638,False
+Montriond,montriond,1410.0,75.0,34.0,49.0,faits consolidés,Grande,0.997638,False
+Morzine,morzine,1460.0,120.0,46.0,70.0,faits consolidés,Grande,0.997638,False
+Méribel,meribel,1852.0,150.0,52.0,72.0,faits consolidés,Grande,0.997638,False
+Peisey-Vallandry,peisey-vallandry,1626.0,200.0,66.0,129.0,faits consolidés,Grande,0.997638,False
+Saint-Jean-d'Arves,saint-jean-d-arves,1520.0,310.0,68.0,136.0,faits consolidés,Grande,0.997638,False
+Saint-Martin-de-Belleville,saint-martin-de-belleville,1354.0,160.0,44.0,86.0,faits consolidés,Grande,0.997638,False
+Tignes,tignes,1900.0,150.0,40.0,81.0,faits consolidés,Grande,0.997638,False
+Val Thorens,val-thorens,1430.0,150.0,42.0,89.0,faits consolidés,Grande,0.997638,False
+Val d'Isère,val-d-isere,1650.0,152.0,37.0,77.0,faits consolidés,Grande,0.997638,False
+Avoriaz,avoriaz,1177.0,75.0,35.0,51.0,faits consolidés,Grande,0.997723,False
+Valloire,valloire,1170.0,160.0,37.0,87.0,faits consolidés,Grande,0.998517,False
+Orelle,orelle,930.0,150.0,31.0,88.0,faits consolidés,Grande,0.998543,False
+Cerler,cerler,1130.0,79.0,19.0,67.0,faits consolidés,Grande,0.998735,False
+Montchavin-Les Coches,montchavin-les-coches,1135.0,225.0,94.0,139.0,faits consolidés,Grande,0.998735,False
+Vars,vars,1130.0,100.0,35.0,111.0,faits consolidés,Grande,0.998735,False
+Combloux,combloux,950.0,100.0,36.0,61.0,faits consolidés,Grande,0.999133,False
+La Giettaz,la-giettaz,830.0,100.0,31.0,62.0,faits consolidés,Grande,0.99941,False
+Flumet,flumet,1069.0,192.0,81.0,157.0,faits consolidés,Grande,0.999455,False
+Praz-sur-Arly,praz-sur-arly,1070.0,192.0,81.0,157.0,faits consolidés,Grande,0.999455,False
+Risoul,risoul,1100.0,185.0,36.0,105.0,faits consolidés,Grande,0.999455,False
+Saint-François-Longchamp,saint-francois-longchamp,1100.0,165.0,16.0,103.0,faits consolidés,Grande,0.999455,False
+Châtel,chatel,1000.0,120.0,56.0,68.0,faits consolidés,Grande,1.0,False
+Les Gets,les-gets,1002.0,117.0,55.0,77.0,faits consolidés,Grande,1.0,False
+Villard de Lans,villard-de-lans,1000.0,125.0,18.0,45.0,faits consolidés,Grande,1.0,False
